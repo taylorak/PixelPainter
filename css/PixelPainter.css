@@ -1,0 +1,56 @@
+#pixelPainter {
+
+}
+
+#canvas {
+
+}
+
+.cell {
+  float: left;
+  border-style: solid;
+  border-width: 0 1px 1px 0;
+}
+
+.row .cell:first-child {
+  border-left: 1px solid black;
+}
+
+.row:first-child .cell {
+  border-top: 1px solid black;
+}
+
+#colorSwatch {
+  display: inline-block;
+}
+
+.colorCell {
+  display: inline-block;
+  border: 1px solid black;
+  margin: 0 10px 10px 0;
+}
+
+#leftArrow {
+  float: left;
+  margin: 0 10px 10px 0;
+}
+#rightArrow {
+  float: right;
+}
+
+#otherButtons {
+  display: inline-block;
+}
+
+.ppButton {
+  display: block;
+  margin: 0 0 10px 10px;
+}
+
+#erase {
+
+}
+
+#clear {
+}
+
